@@ -1,0 +1,5 @@
+__pycache__/
+datasets/
+
+plate_detector/datasets/
+plate_detector/runs/
