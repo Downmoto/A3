@@ -1,7 +1,7 @@
 
 ## Deployment
 
-To run this project locally, youll first need to download the following datasets:
+To run this project locally, you'll first need to download the following datasets:
 
 For the [model](https://www.kaggle.com/datasets/fareselmenshawii/large-license-plate-dataset)
 and for the [testing](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection), though you can use any dataset for testing.
@@ -27,11 +27,11 @@ and for the [testing](https://www.kaggle.com/datasets/andrewmvd/car-plate-detect
 ```bash
   # go back to A3 directory if you are not there
   # create a datasets directory
-  # place images directory inside datasets directory (the testing datasets)
+  # place images directory inside datasets directory (the testing dataset)
   # do not place annotation/label directory in datasets
   python main.py # this will take a bit of time
 ```
 
 ### Results
-You will find a output folder containing images with the cv read text labeled above the license plates. You will also find a results.csv file.
+You will find an output folder containing images with the CV read text labeled above the license plates. You will also find a results.csv file.
 
