@@ -3,3 +3,7 @@ datasets/
 
 plate_detector/datasets/
 plate_detector/runs/
+
+
+output/
+results.csv
