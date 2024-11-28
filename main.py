@@ -11,7 +11,7 @@ reader = easyocr.Reader(['en'])
 
 # Directory containing images
 image_sets = "./datasets/images"
-output_csv = "results.csv"
+output_csv = "./datasets/results.csv"
 
 # CSV headers
 headers = ["Image Name", "Detected Text", "Confidence", "Preprocessing Method", "Bounding Box", "Score"]
