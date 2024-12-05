@@ -101,6 +101,7 @@ with open(output_csv, mode='w', newline='') as file:
                 cv.putText(image, best_text, (text_x, text_y), cv.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
         # Save annotated image (optional)
+        # This will store every image
         output_image_path = f"./output/{image_name}"
         os.makedirs("./output", exist_ok=True)
         cv.imwrite(output_image_path, image)
