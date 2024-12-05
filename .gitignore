@@ -7,3 +7,5 @@ plate_detector/runs/
 
 output/
 results.csv
+
+.venv
